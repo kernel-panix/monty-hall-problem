@@ -1,0 +1,33 @@
+*************************
+Version Log		*
+*************************
+0.0.14
+	- Added MIT Licensing to project.
+	- Moved version log to its own file.
+	- Re-added DI for source scripts for debugging later.
+	- Created directory for future unit tests.
+	- Included Bootstrap and AngularJS for front-end.
+
+0.0.13
+	- Created this Read Me and began version logging.
+		- Added scope outline for clearer direction in terms of functionality.
+		- Added abstract.
+		- Added directory structure.
+	- Created directory structure and index.html to house and display functionality.
+	- Considering utilizing Bootstrap with AngularJS to streamline front-end development load.
+
+
+0.0.12
+	- Added testing logic to MontyHall.Start() method.
+
+
+0.0.11
+	- Adopted a more object-oriented approach for better scoping.
+	- Moved game initialization into its own method Start().
+	- Moved all game dialogue to its own JSON object.
+	- Fixed error when assigning current game status to persistent data JSON object. New method assigns after object creation.
+
+
+0.0.1
+	- Created basic concept for project and framework.
+	- Created MontyHall function/namespace.

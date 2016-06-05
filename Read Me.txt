@@ -1,0 +1,28 @@
+Project Name: Monty Hall Odds Explainer
+
+*********************
+Abstract			*
+*********************
+	Project is a scalable Monty Hall game that displays odds of current and potential doors. Also shows the number of times a door switch resulted in a win vs. when it resulted in a loss. Mainly this project is for educational purposes.
+
+*********************
+Scope Outline		*
+*********************
+	- Provide three or more open-able doors and a number of joke doors less than that number. (Classic MH uses initial 1:2 ratio in the host's favor.)
+	- Player chooses a door to begin the game.
+	- Another door is removed/opened by program and user is offered a chance to switch doors.
+		- Must open joke door if only one prize door remains.
+	- When two doors remain, host/program opens final joke door after offering switch.
+	- Handle user errors without interrupting functionality.
+	- Should display odds of previous door selection and potential door selection.
+
+*********************
+Directory Structure	*
+*********************
+	Main
+		-> scripts 		; Combined, minified, and runnable 
+		-> src			; Full scripts
+			-> ctrl		; Controllers
+			-> view		; Views
+		-> style		; Mainly CSS files
+		-> tests
